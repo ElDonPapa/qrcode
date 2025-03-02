@@ -97,6 +97,7 @@ main {
     padding: var(--spacing-200);
     padding-bottom: var(--spacing-500);
     border-radius: var(--spacing-200);
+    box-shadow: 0 1.5625rem 1.5625rem hsl(0 0 0 / 5%);
 }
 
 .card__image {
