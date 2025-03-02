@@ -66,16 +66,28 @@ table {
 
     
 body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
     background-color: var(--slate-300);
     font-family: var(--ff-primary);
 }
 
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
 .attribution {
+    margin-top: auto;
+    padding: var(--spacing-500) 0;
     font-size: 11px;
     text-align: center;
 }
 .attribution a {
-    color: hsl(228, 45%, 44%);
+    color: var(--slate-500);
 }
 
 .card {
