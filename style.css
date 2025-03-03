@@ -102,6 +102,7 @@ main {
 
 .card__image {
     border-radius: inherit;
+    width: 288px;
 }
 
 .card__content {
